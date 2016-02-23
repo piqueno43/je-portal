@@ -1,0 +1,9 @@
+$navbar-default-bg: #312312;
+$light-orange: #ff8c00;
+$navbar-default-color: $light-orange;
+$brand-primary: darken(#475652, 6.5%) !default;
+$input-border: #ccc !default;
+$border-radius-base:0 !default;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";

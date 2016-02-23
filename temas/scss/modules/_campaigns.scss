@@ -1,0 +1,28 @@
+// ==========================================================================
+//   Campanhas
+// ==========================================================================
+
+.campanhas-icones {
+    float: left;
+    & li{
+        list-style: none;
+        float: left;
+        margin-right: 2px;
+        margin-left: 2px;
+    }
+    .icon {
+        background-image: url(../images/servicos/sprites-servicos.png);
+        background-repeat: no-repeat;
+        display: block;
+        &.icon-acesso {
+            width: 88px;
+            height: 30px;
+            background-position: -5px -5px;
+        }
+        &.icon-campanha {
+            width: 20px;
+            height: 34px;
+            background-position: -5px -45px;
+        }
+    }
+}

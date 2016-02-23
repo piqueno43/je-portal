@@ -1,0 +1,19 @@
+.main-footer,
+.main-footer:after {
+    height: $footer-height;
+}
+.main-footer {
+    background-color: $footer-bg-color;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    min-width: 100%;
+
+    @for $i from 1 through 6 {
+    &.h#{$i} {
+        color:$default-color;
+    }
+}
+}
+

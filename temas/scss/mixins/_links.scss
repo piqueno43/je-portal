@@ -1,0 +1,30 @@
+// Links
+@mixin links($link: $link-color, $visit:$link-visited-color, $hover: $link-hover-color, $active: $link-active-color) {
+  a {
+    color: $link;
+    &:visited {
+      color: $visit;
+    }
+    &:hover {
+      color: $hover;
+    }
+    &:active {
+      color: $active;
+    }
+  }
+}
+
+@mixin navigation-list {
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    > li{
+        display:block;
+        float:left;
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}
+This mixin intro

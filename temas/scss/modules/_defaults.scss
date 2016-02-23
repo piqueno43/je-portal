@@ -1,0 +1,30 @@
+// ==========================================================================
+//   CSS Padrão
+// ==========================================================================
+
+* {
+  -webkit-font-smoothing:antialiased;
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+  @include vendor(box-sizing, border-box);
+}
+html {
+  font-size:62.5%;
+  height: 100%;
+}
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    height: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+    min-height: 100%;
+
+    &:after {
+        content: "";
+        display: block;
+    }
+}
+

@@ -1,0 +1,12 @@
+// Size
+@mixin size($width, $height: $width) {
+      width: $width;
+      height: $height;
+}
+// Exemplo de uso
+// .elemento {
+//  @include size(100%);
+// }
+// .outro-elemento {
+//  @include size(100%, 1px);
+//}

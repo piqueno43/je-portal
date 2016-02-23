@@ -1,0 +1,21 @@
+// ==========================================================================
+//   Logo
+// ==========================================================================
+.logo-container {
+    width: 42%;
+    padding-top: 15px;
+
+    .logo {
+       position: relative;
+       top: -15px;
+   }
+   .title-container {
+    display: inline-block;
+    .title {
+        margin: 0;
+    }
+    & a {
+        padding: 0 15px;
+    }
+}
+}

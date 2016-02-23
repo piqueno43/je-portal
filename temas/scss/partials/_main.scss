@@ -1,0 +1,7 @@
+.main {
+    margin-bottom: $footer-height;
+    &:after {
+        content: "";
+        display: block;
+    }
+}

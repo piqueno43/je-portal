@@ -1,0 +1,307 @@
+// ==========================================================================
+//   Contranste
+// ==========================================================================
+
+$bg-contraste : #333333;
+$cor-contraste : #eeeeee;
+$borda-contraste : 1px solid $cor-contraste;
+$path-image : "../images";
+
+body.contraste {
+  background: $bg-contraste;
+  color: $cor-contraste;
+  #header,
+  #footer,
+  #main,
+  #doormat-container {
+    background: $bg-contraste;
+    color: $cor-contraste;
+  }
+  #em-destaque {
+    ul,
+
+    li#em-destaque-titulo {
+      background: $bg-contraste;
+      color: $cor-contraste;
+    }
+  }
+  .outstanding-header .outstanding-title,
+  .audiogallery-tile,
+  .videogallery-tile,
+  ul.css-tabs a {
+    background: $bg-contraste;
+    color: $cor-contraste;
+  }
+  .timeline {
+    background: $bg-contraste;
+    color: $cor-contraste;
+    a {
+      background: $bg-contraste;
+      color: $cor-contraste;
+    }
+  }
+  #content .poll-tile,
+  h2,
+  p,
+  a,
+  h2 a,
+  .h2-size {
+    background: $bg-contraste;
+    color: $cor-contraste;
+  }
+  .h3-size {
+    background: $bg-contraste;
+    color: $cor-contraste;
+    span {
+      background: $bg-contraste;
+      color: $cor-contraste;
+    }
+  }
+  .entry-title.h2-size,
+  h1.entry-title,
+  .current,
+  #page,
+  #header,
+  #main,
+  #content .entry-title,
+  #footer,
+  div,
+  section,
+  footer,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span,
+  select,
+  .menu-mais-acessados,
+  ul#menuSuperior .menu {
+    background: $bg-contraste;
+    color: $cor-contraste;
+  }
+  img,
+  input,
+  select,
+  textarea,
+  .todos-box-servicos div {
+    border: $borda-contraste;
+  }
+  footer {
+    border-color: $bg-contraste;
+  }
+  input[type="image"] {
+    background: $bg-contraste;
+  }
+  #destaque-6-col-1 h2,
+  #todos-servicos > ul {
+    background: transparent;
+  }
+  a,
+  h2 a {
+    color: $cor-contraste;
+    text-decoration: underline;
+  }
+  #sessaoPlenaria {
+    background: url(#{$path-image}/sessao_plenaria_bgn.jpg) no-repeat center 0;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/sessao_plenaria_bgn.jpg) no-repeat center 0;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/sessao_plenaria.jpg) no-repeat center 0;
+      }
+    }
+  }
+  #youtube {
+    background: url(#{$path-image}/youtube_min_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/youtube_min_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/youtube_min.jpg) no-repeat center right;
+      }
+    }
+  }
+  #youtube-min {
+    background: url(#{$path-image}/youtube_min_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/youtube_min_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/youtube_min.jpg) no-repeat center right;
+      }
+    }
+  }
+  #twitter {
+    background: url(#{$path-image}/twitter_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/twitter_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/twitter.jpg) no-repeat center right;
+      }
+    }
+  }
+  #facebook {
+    background: url(#{$path-image}/facebook_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/facebook_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/facebook.jpg) no-repeat center right;
+      }
+    }
+  }
+  #flickr {
+    background: url(#{$path-image}/flickr_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/flickr_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/flickr.jpg) no-repeat center right;
+      }
+    }
+  }
+  #radio {
+    background: url(#{$path-image}/radio_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/radio_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/radio.jpg) no-repeat center right;
+      }
+    }
+  }
+  #calendario_corp {
+    background: url(#{$path-image}/calendario_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/calendario_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/calendario.jpg) no-repeat center right;
+      }
+    }
+  }
+  #rss {
+    background: url(#{$path-image}/rss_bgn.jpg) no-repeat center right;
+    a {
+      &:link,
+      &:visited,
+      &:active {
+        background: url(#{$path-image}/rss_bgn.jpg) no-repeat center right;
+      }
+      &:hover,
+      &:focus {
+        background: url(#{$path-image}/rss.jpg) no-repeat center right;
+      }
+    }
+  }
+  #identificacao_site {
+    background: transparent;
+  }
+  #mapaSite_bg {
+    background: transparent;
+    .container {
+      background: transparent;
+    }
+  }
+  .todos-box-servicos div,
+  #box-consultas-pesquisas,
+  #banner-campanha,
+  #MenuNoticias,
+  #blocoVideos,
+  #blocoRadio {
+    background: transparent;
+  }
+  .section-imprensa {
+    #bancoImagens,
+    #campanha-contato {
+      background: transparent;
+    }
+  }
+  #links-servicos1,
+  #links-servicos2,
+  #links-servicos3,
+  #links-servicos4,
+  .site-portalje #textoConteudo,
+  #noticias-coluna-estilo-1 h2 {
+    background: transparent;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body.contraste {
+    #links-topo {
+      a {
+        background: $bg-contraste;
+        border-left: $borda-contraste;
+        border-right: $borda-contraste;
+      }
+      div:nth-child(1) a:first-child {
+        border-top: $borda-contraste;
+      }
+      > div:nth-of-type(3) a:last-of-type {
+        border-bottom: $borda-contraste;
+      }
+    }
+    .abrir-links-topo {
+      background: url("#{$path-image}/abrir_menu_1.png") no-repeat right center;
+    }
+    #todos-servicos,
+    #AcompanhamentoProcessual,
+    #jurisprudencia,
+    #pesquisa-legislacao-compilada,
+    #caixa-menu-sup-mobile select,
+    .abrir-midias-mobile {
+      background: transparent;
+    }
+    #caixa-menu-sup-mobile select {
+      border: none;
+    }
+    .seta-box-aberto {
+      background: url("#{$path-image}/box-aberto.png") no-repeat right center;
+    }
+    .seta-box-fechado {
+      background: url("#{$path-image}/box-fechado.png") no-repeat right center;
+    }
+    .tile-admin-folder p {
+      color: transparent;
+    }
+    .midias-sociais {
+      border: $borda-contraste;
+    }
+  }
+}

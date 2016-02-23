@@ -1,0 +1,40 @@
+// Cria seletor para a logo de cada portal de acordo com a classe da body
+//Para adicionar, remover e editar um seletor abra o arquivo _portals.scss
+//Aqui também altera as medias colocando o caminho da pasta /tablet/ ~ /mobile/
+@import "variables/portals";
+@each $sigla in $portais {
+  body.site-#{$sigla} .main-logo {
+    width: 405px;
+    height: 80px;
+    background: url("../images/logos/#{$sigla}.png") no-repeat 0 0;
+}
+}
+
+/* FLOAT */
+.fl-left{float: left;}
+.fl-right{float: right;}
+.fl-center{float: none;}
+/* TEXT -ALIGN */
+.al-left{text-align: left;}
+.al-right{text-align: right;}
+.al-center{text-align: center;}
+/* HELPERS */
+.text-shadow{text-shadow: 1px 1px 0 #ccc;}
+.box-shadow{box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);-webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);-moz-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);}
+.radius{border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+.last{margin-right: 0!important;}
+.clear{clear: both;}
+/* DISPLAY */
+.ds-block{display: block;}
+.ds-inblock{display: inline-block;}
+.ds-inline{display: inline;}
+.ds-none{display: none;}
+
+/* BOX */
+.box{width: auto;float: left;}
+.box-line{float: left; width: 100%;}
+
+.box-small{width: 22.75%;margin-right: 3%;}
+.box-medium{width: 30%;margin-right: 5%;}
+.box-large{width: 46.5%;margin-right: 7%;}
+.box-full{width: 100%; margin: 0;}

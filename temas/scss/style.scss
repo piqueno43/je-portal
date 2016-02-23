@@ -1,0 +1,52 @@
+// VENDOR
+// ================================================================
+
+// SCSS MIXINS
+// ================================================================
+// @import 'vendor/_external.scss';
+
+@import "mixins/_vendor.scss";
+@import "mixins/_position.scss";
+// CONFIG MODULES
+// ================================================================
+
+
+// Config modules
+@import "modules/_vars.scss";
+@import "modules/_clearfix.scss";
+@import "modules/_normalize.scss";
+@import "modules/_defaults.scss";
+
+// SCSS LAYOUTS
+// ================================================================
+@import "partials/header";
+@import "partials/nav";
+@import "partials/sidebar";
+@import "partials/main";
+@import "partials/footer";
+
+// OBJECTS & MODULES
+// ================================================================
+
+@import "modules/_buttons.scss";
+@import "modules/_forms.scss";
+@import "modules/_inputs.scss";
+@import "modules/_lists.scss";
+@import "modules/_typography.scss";
+@import "modules/_misc.scss";
+@import "modules/_app.scss";
+
+@import "modules/_helpers.scss";
+@import "modules/_sociais.scss";
+@import "modules/_logo.scss";
+@import "modules/_contraste.scss";
+@import "modules/_campaigns.scss";
+
+// ENHANCEMENT MODULES
+@import "modules/_breakpoints.scss"; // media queries
+@import "modules/_print.scss";
+
+
+
+
+// adicionar após como @import "nome-arquivo";  => _nome-arquivo.scss

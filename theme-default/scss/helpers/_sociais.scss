@@ -1,0 +1,51 @@
+.redes-sociais-icones {
+
+    float: right;
+    & li{
+        list-style: none;
+        float: left;
+        margin-right: 2px;
+    }
+
+    .icon {
+        background-image: url(../images/social/sprites-sociais.png);
+        background-repeat: no-repeat;
+        display: block;
+        &.icon-email {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -5px;
+        }
+        &.icon-facebook {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -45px;
+        }
+        &.icon-flickr {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -85px;
+        }
+        &.icon-rss {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -125px;
+        }
+        &.icon-soundcloud {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -165px;
+        }
+        &.icon-twitter {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -205px;
+        }
+        &.icon-youtube {
+            width: 30px;
+            height: 30px;
+            background-position: -5px -245px;
+        }
+    }
+}
+
