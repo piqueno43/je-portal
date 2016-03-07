@@ -4,16 +4,56 @@
 }
 .main-footer {
     background-color: $footer-bg-color;
-    text-align: center;
     padding: 1rem;
     position: relative;
     bottom: 0;
     min-width: 100%;
-
-    @for $i from 1 through 6 {
-    &.h#{$i} {
-        color:$default-color;
+    .copyright {
+        text-align: center;
     }
 }
-}
 
+.links-footer {
+    & h3 {
+        @include breakpoint(mobileonly){display: none;}
+        @include breakpoint(phablet){display: none;}
+        @include breakpoint(tablet){display: block;}
+        @include breakpoint(laptop){display: block;}
+        @include breakpoint(desktop){display: block;}
+        font-size: $font-size-h3;
+    }
+    & .menu-rodape{
+        @include breakpoint(mobileonly){display: none;}
+        @include breakpoint(phablet){display: none;}
+        @include breakpoint(tablet){width: 60%;display: block;}
+        @include breakpoint(laptop){width: 40%;display: block;}
+        @include breakpoint(desktop){width: 20%;display: block;}
+        float: left;
+        max-height:450px;
+        height:420px;
+        min-height:380px;
+        .nivel_mapaSite {
+            padding-left: 5%;
+        }
+        & h2 {
+            font-size: $font-size-h2;
+            color:$headings-color;
+        }
+        & li {
+            text-align: left;
+            list-style: none;
+            line-height: $line-height-base;
+        }
+        & a {
+            // @include link-colors(Cor-padrão, Cor-Hover, Cor-Visited, Cor-Focus);
+            @include link-colors(#999, $link-hover-color, $brand-primary, darken($link-color, 25%) );
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

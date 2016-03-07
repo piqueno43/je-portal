@@ -3,6 +3,7 @@
 // ================================================================
 
 // SCSS MIXINS
+@import "mixins/grid";
 @import "mixins/position";
 @import "mixins/vendor";
 
@@ -14,7 +15,7 @@
 @import "mixins/transition";
 @import "mixins/opacity";
 // LAYOUT
-@import "mixins/breakpoint";
+@import "mixins/breakpoints";
 @import "mixins/clearfix";
 
 // SKINS

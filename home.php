@@ -467,6 +467,14 @@
                 </figure>
             </section>
             <!--Banner campanha/-->
+            <section id="campanha-contato"><!--Banner campanha-->
+            <section id="banner-campanha" role="navigation" class="span-26 last"><figure class="imagem_divulgacao">
+            <a href="http://www.tse.jus.br/hotSites/70anos/" target="_blank" title="70 anos da Justiça Eleitoral"><img src="http://www.tse.jus.br/admin-tse/imprensa-banners-campanha-tse/70-anos-da-justica-eleitoral/@@images/2cc0f3da-d015-45fd-b133-04c62518e94a.jpeg" alt="Banner sobre os 70 anos da Justiça Eleitoral"></a>
+            <a href="#" target="_self" title="Eleições 2016 #SeuVotoSuaVoz">
+                        <img src="temas/img/banner-eleicoes-2016.png" alt="Eleições 2016 #SeuVotoSuaVoz" />
+                    </a>
+</figure></section><!--Banner campanha/--><section id="blocoContatoImprensa"><div id="contatos-imprensa"><div style="float:left; width:100%;" id="tile-informacoes"><div data-tile="http://www.tse.jus.br/tse/imprensa/@@je.tiles.texto/informacoes" id="title-modify-portal-content"><p><a target="_self" class="internal-link" href="http://www.tse.jus.br/imprensa/quem-somos" title=""><span class="external-link"><span class="external-link">Quem somos</span></span></a></p><p><a target="_self" class="internal-link" href="http://www.tse.jus.br/imprensa/fale-conosco" title=""><span class="internal-link"><span class="external-link"><span class="external-link">Fale com a comunicação</span></span></span></a></p></div></div></div>
+                </section></section>
 
             <!--Painel de notÃ­cias-->
             <section id="MenuNoticias" role="navigation" class="span-30 prepend-1 append-1">

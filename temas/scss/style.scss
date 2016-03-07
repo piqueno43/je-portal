@@ -3,7 +3,12 @@
 
 // SCSS MIXINS
 // ================================================================
-// @import 'vendor/_external.scss';
+// @import 'vendor/bootstrap/mixins';
+// @import 'vendor/bootstrap/variables';
+// ENHANCEMENT MODULES
+@import "compass"; // media queries
+@import "modules/_breakpoints.scss"; // media queries
+@import "modules/_print.scss";
 
 @import "mixins/_vendor.scss";
 @import "mixins/_position.scss";
@@ -13,17 +18,18 @@
 
 // Config modules
 @import "modules/_vars.scss";
+@import "modules/_mixins.scss";
 @import "modules/_clearfix.scss";
 @import "modules/_normalize.scss";
 @import "modules/_defaults.scss";
 
 // SCSS LAYOUTS
 // ================================================================
-@import "partials/header";
-@import "partials/nav";
-@import "partials/sidebar";
-@import "partials/main";
-@import "partials/footer";
+@import "partials/_header.scss";
+@import "partials/_nav.scss";
+@import "partials/_sidebar.scss";
+@import "partials/_main.scss";
+@import "partials/_footer.scss";
 
 // OBJECTS & MODULES
 // ================================================================
@@ -35,6 +41,7 @@
 @import "modules/_typography.scss";
 @import "modules/_misc.scss";
 @import "modules/_app.scss";
+@import "modules/_responsive-tabs.scss";
 
 @import "modules/_helpers.scss";
 @import "modules/_sociais.scss";
@@ -42,9 +49,7 @@
 @import "modules/_contraste.scss";
 @import "modules/_campaigns.scss";
 
-// ENHANCEMENT MODULES
-@import "modules/_breakpoints.scss"; // media queries
-@import "modules/_print.scss";
+
 
 
 

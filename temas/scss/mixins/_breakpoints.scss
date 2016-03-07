@@ -1,36 +1,19 @@
-// Breakpoints
-$breakpoints: (
-  'tiny':   ( max-width:  767px ),
-  'small':  ( min-width:  768px ),
-  'medium': ( min-width:  992px ),
-  'large':  ( min-width: 1200px ),
-  'custom': ( min-height:  40em )
-);
-
-@mixin breakpoint($name) {
-      @if map-has-key($breakpoints, $name) {
-        @media #{inspect(map-get($breakpoints, $name))} {
-      @content;
-    }
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
   }
-  @else {
-    @warn "Não foi possível o breakpoints chamado `#{$name}`.";
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+
   }
 }
 
-// Exemplo de uso
-// .elemento {
-//    color: red;
-//    @include breakpoint(medium);
-// }
-// CSS output:
-// .elemento {
-//  color: red;
-//  }
-//
-//  @media (min-width: 992px) {
-//    .elemento {
-//        color: blue;
-//     }
-//  }
-//

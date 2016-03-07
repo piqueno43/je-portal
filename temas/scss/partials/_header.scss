@@ -1,4 +1,55 @@
-.header {
-
+.header-container{
+  padding-top: 15px;
+  .logo-container {
+    @include breakpoint(desktop){
+      width: auto;
+      float: left;
+  }
 }
+.title-container {
+    float: right;
 
+    & h1,
+    & p{
+        margin: 10px 5px;
+    }
+}
+.topo-midias-busca {
+    @include breakpoint(desktop){
+        width: auto;
+        float: right;
+    }
+}
+}
+.box-busca {
+    & form{
+        float: right;
+    }
+    .sr-only{
+        display: none;
+    }
+    .form-group {
+        display: block;
+    }
+    .form-control {
+        width: 300px;
+        padding:{
+            left:1%;
+            bottom:7px;
+            top:7px;
+        }
+    }
+    .botao_busca {
+        position: relative;
+        top: -30px;
+        left: 87%;
+    }
+    .busca_avancada {
+        position: relative;
+        right: 22px;
+        bottom: 25px;
+        float: right;
+
+        font-size: 0.75em;
+    }
+}

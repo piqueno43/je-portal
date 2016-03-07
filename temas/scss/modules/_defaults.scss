@@ -8,23 +8,33 @@
   text-rendering:optimizeLegibility;
   @include vendor(box-sizing, border-box);
 }
+
 html {
   font-size:62.5%;
   height: 100%;
 }
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
-    height: 100%;
-}
+  font: 16px/26px "arialregular", Helvetica Neue, Arial;
+  height: 100%;
 
+}
+a {
+  @include link-colors($link-color, $link-hover-color, $brand-primary, darken($brand-primary, 25%));
+}
 .wrapper {
-    width: 90%;
-    margin: 0 5%;
-    min-height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 1080px;
 
-    &:after {
-        content: "";
-        display: block;
-    }
+  &:after {
+    content: "";
+    display: block;
+  }
 }
 
+.gradient-bg-color {
+    background-color: #ffffff; // Old browsers
+    @include filter-gradient(#ffffff, #f4f4f4, vertical); // IE6-9
+    @include background-image(linear-gradient(top, #ffffff 0%,#f4f4f4 100%));
+}

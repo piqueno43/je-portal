@@ -1,0 +1,66 @@
+/* CSS Document */
+
+#menuPrincipal{
+    display: block !important;
+    font-size: 1.2em;
+    position: absolute;
+    right: -6px;
+    top: 2px;
+}
+
+#menuPrincipal a{
+	background: url(../img/abrir_menu_2.png) no-repeat center right;
+	color: #FFFFFF;	
+    font-size: 0.9em;
+    padding: 8px 35px;
+	margin-right: 7px;
+}
+#menuSuperior{
+	display: none;	
+}
+#caixa-menu-sup-mobile{
+    background: #306830;
+    max-width: 300px;
+    position: absolute;
+    right: -10px;
+    top: 34px;
+    width: 100%;
+    z-index: 20;
+}
+#caixa-menu-sup-mobile a{
+    color: #fff;
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 15px 10px;
+    text-align: right;
+}
+#caixa-menu-sup-mobile .menu_li{
+    float: left;
+    width: 100%;
+}
+#caixa-menu-sup-mobile select {
+    background: #306830 url("../img/seta-abrir.png") no-repeat right center;
+    border: none;
+    color: #fff;
+    direction: rtl;
+    display: none;
+    float: right;
+    font-size: 1em;
+    margin-right: 10px;
+    max-width: 280px;
+    padding: 10px 15px;
+    text-align: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+#caixa-menu-sup-mobile option{
+    text-align: right;
+    direction: rtl;
+}
+#caixa-menu-sup-mobile .menu_li a span{
+    font-weight: normal;
+}
+.template-segundacapa #menuPrincipal{
+    display: none;
+}
